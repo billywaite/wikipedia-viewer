@@ -1,0 +1,85 @@
+@import
+  url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  background: #3dc0f1;
+}
+.wikiData {
+  padding:150px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 100;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  color: white;
+}
+.nav {
+  border: 2px solid #4cae4c;
+  background: #5cb85c;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
+  padding: 20px;
+  width: 275px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.searchField {
+  color: black;
+  border:none;
+  width:150px;
+  height: 32px;
+  padding-left: 15px;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+}
+.searchField:hover {
+  width: 225px;
+}
+.nav a {
+  margin-top: 10px;
+  box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
+  transition-duration: 0.4s;
+}
+.nav button {
+  margin-top: 10px;
+  box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
+  transition-duration: 0.4s;
+}
+.articles div {
+  border: 2px solid #4cae4c;
+  background: #5cb85c;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
+}
+.articles h2 {
+  text-align: left;
+  padding-left: 20px;  
+}
+.articles a {
+	border:1px solid #d9534f;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 6px;
+	background-color:#d9534f;
+  color: white;
+  box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
+  transition-duration: 0.4s;
+}
+.articles a:hover {
+  border:1px solid #d43f3a;
+  background: #d43f3a;
+}
+.articles p {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 20px;
+}
+.fadeInDown {
+  animation-name: fadeInDown;
+}
